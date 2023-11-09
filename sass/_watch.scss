@@ -1,0 +1,16 @@
+.watch {
+  margin: 120px 0;
+  &-all {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 65px;
+  }
+  &-img {
+    width: 400px;
+    border-radius: 15px;
+  }
+  &-left a {
+    color: #ee5060;
+  }
+}

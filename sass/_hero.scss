@@ -1,0 +1,80 @@
+.hero {
+  background-color: #9cf3f9;
+  padding: 10px 0;
+
+  &-all {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 40px;
+  }
+  &-image img {
+    width: 650px;
+    position: relative;
+    height: 500px;
+  }
+  &-case {
+    background: rgba(255, 255, 255, 0.8);
+    width: 290px;
+    border-radius: 20px;
+    position: absolute;
+    backdrop-filter: blur(20px);
+    top: 400px;
+    padding: 10px;
+  }
+  &-info {
+    display: flex;
+    gap: 10px;
+  }
+  &-info button {
+    background-color: #b25a59;
+    border: none;
+    border-radius: 80px;
+    padding: 10px 20px;
+    color: #fff;
+  }
+  &-info h5 {
+    font-size: 20px;
+    margin: 10px 0 0 0;
+    color: #595959;
+    font-weight: 700;
+  }
+  &-info p {
+    color: #545567;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+  }
+  &-left h1 {
+    font-size: 54px;
+    font-weight: 800;
+  }
+  &-left p {
+    font-size: 24px;
+  }
+  &-button {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  &-button button {
+    border-radius: 80px;
+    padding: 15px;
+    background-color: #b25a59;
+    color: #fff;
+    border: none;
+  }
+  &-icon {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+  }
+  &-icon i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #23bdee;
+  }
+}
